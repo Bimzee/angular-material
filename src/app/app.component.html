@@ -1,0 +1,11 @@
+<hello name="{{ name }}"></hello>
+<mat-drawer-container>
+  <mat-deawer #drawer class="sidenav" module="side">
+    <p>Menu</p>
+  </mat-deawer>
+  <div class="sidenav-content">
+    <button mat-icon-button (click)="drawer.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+</mat-drawer-container>
